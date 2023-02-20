@@ -23,13 +23,19 @@
 }
 
 .cards{
+    /* border: 2px solid; */
+    border-radius: 10px;
+    background-image: linear-gradient(to right top,#d16ba5,#c777b9,#ba83ca,#aa8fd8,#9a9ae1,#8aa7ec,#79b3f4,#69bff8,#52cffe,#41dfff,#46eefa,#5ffbf1);
+    padding: 22px 15px;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-gap: 2em;
+    box-shadow: 0 0 20px #000, 0 0 60px #f3f4f8;
 }
 
 .card{
     height: 110px;
+    
     width: 90px;
     background-color: yellow;
     border-radius: 10px;
